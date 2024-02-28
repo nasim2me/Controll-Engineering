@@ -1,12 +1,12 @@
-int a=9;
-int b=10;
-long c;
-int d;
+int a=9; // trigPin
+int b=10; // echoPin
+long c; // duration
+int d; // distance
 void setup()
 {
   pinMode(a,OUTPUT);
   pinMode(b, INPUT);
-  Serial.begin(9600); 
+  Serial.begin(115200); 
 }
 void loop()
 {
