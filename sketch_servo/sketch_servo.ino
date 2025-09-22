@@ -13,9 +13,10 @@ void loop()
     a.write(b);
     delay(10);
   }
-  for(b=1800;b>=0;b-=10)
+  for(b=180;b>=0;b-=10)
   {
     a.write(b);
     delay(10);
   }
 }
+
